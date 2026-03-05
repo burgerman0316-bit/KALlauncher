@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaneland Application Launcher</title>
     <style>
-        body {
+        body, html {
             margin: 0;
             padding: 0;
-            overflow: hidden; /* Prevents double scrollbars */
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            background-color: #ffffff;
         }
         .container {
             width: 100%;
-            height: 100vh; /* Sets height to full viewport height */
+            height: 100vh;
         }
         iframe {
             width: 100%;
@@ -25,8 +28,8 @@
 
     <div class="container">
         <iframe 
-            src="https://sites.google.com/view/kanelandlauncher/kaneland-application-launcher?authuser=1" 
-            title="Kaneland Application Launcher"
+            src="https://sites.google.com/view/kanelandlauncher/kaneland-application-launcher" 
+            title="Kaneland Launcher"
             allowfullscreen>
         </iframe>
     </div>
